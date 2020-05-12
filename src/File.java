@@ -10,7 +10,7 @@ public class File {
 		this.fileSize = fileSize;
 	}
 
-	public Knot getKnot(int index) {
+	public Knot getKnot() {
 		return knots.nextKnot();
 	}
 	
